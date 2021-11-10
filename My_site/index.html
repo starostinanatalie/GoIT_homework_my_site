@@ -5,18 +5,124 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Natalie's site</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    
 </head>
 <body>
-    <!-- Experience section -->
+    
+    <div class="wrapper">
 
-    <section class="experience-section">
-        <img src=./img/my.JPG alt="My photo">
+        <!-- Experience section -->
+
+        <section class="experience-section">
+            <img class="my-photo" src="./img/my.JPG" alt="My photo">
+
+            <div>
+                <a href="https://www.linkedin.com/in/natalie-starostina-7b2039183/">
+                    <img src="./img/icons/linkedin-icon.svg" alt="My LinkedIn" class="icon">
+                </a>
+
+                <a href="https://www.facebook.com/profile.php?id=100008830218641">
+                    <img src="./img/icons/fb-icon.svg" alt="My Facebook" class="icon">
+                </a>
+            </div>
+
+            <div class="experience-description">
+                <p>3 готовых проекта</p>
+                <p>1 год опыта</p>
+            </div>
+
+            <div>
+                <img src="./img/icons/js-icon.svg" alt="JavaScript" class="icon">
+                <img src="./img/icons/react-icon.svg" alt="React" class="icon">
+                <img src="./img/icons/nodejs-icon.svg" alt="NodeJS" class="icon">
+            </div>
+
+            <a class="my-projects-link" href="https://github.com/starostinanatalie">Мои работы</a>
+
+        </section>
+
+        <!-- My info section -->
+
+        <section class="My-info-section">
+
+            <h2 class="hello-Iam">Привет! Я - Наталия Старостина</h2>
+            <h1 class="profession">Я делаю сайты </h1>
+            <h3 class="working-style">Работаю удаленно</h3>
+
+            <p class="my-description">Я - человек-оркестр. В одиночку заменяю целую веб-студию. </p>
+
+            <div>
+
+                <h2 class="my-skills-title">Умею:</h2>
+                <ul>
+                    <li><p>Управлять IT-проектами и командами;</p></li>
+                    <li><p>Front End разработчик;</p></li>
+                    <li><p>Back End разработчик;</p></li>
+                    <li><p>Могу проконтролировать качество своего или вашего проекта, как QA - специалист.</p></li>
+                </ul>
+            </div>
+  
+        </section>
+
+        <!-- Calculation section -->
+
+        <section class="calculator">
+
+            <form action="#">
+                <h2 class="calculator-title">Рассчитайте стоимость своего сайта</h2>
+
+                <div class="project-type-container">
+                <label for="project-type" class="form-labels">Тип сайта</label>
+
+                    <select name="project-type" id="project-type" class="project-type-select">
+                        <option selected value="landing-page">Landing Page</option>
+                        <option value="online-store">Online Store</option>
+                        <option value="web-application">Web Application</option>
+                        <option value="mobile-application">Mobile Application</option>
+                    </select>
+                </div>
+                <div class="work-type-container">
+                    <h2>Типы работ</h2>
+                    <div class="work-type-item">
+                        <input type="checkbox" name="PM" id="PM" class="checkbox-calculator">
+                        <label for="PM" class="work-type-label">Project Management</label>
+                    </div>
+                    <div class="work-type-item">
+                        <input checked type="checkbox" name="Design" id="Design" class="checkbox-calculator">
+                        <label for="Design" class="work-type-label">Design</label>
+                    </div>
+                    <div class="work-type-item">
+                        <input checked type="checkbox" name="Development" id="Development" class="checkbox-calculator">
+                        <label for="Development" class="work-type-label">Development</label>
+                    </div>
+                    <div class="work-type-item">
+                        <input type="checkbox" name="QA" id="QA" class="checkbox-calculator">
+                        <label for="QA" class="work-type-label">QA</label>
+                    </div>
+                 </div>
+                 <div class="calculator-container">
+                     <h2>Стоимость</h2>
+                     <p class="calculator-sum">$ 2000</p>
+                 </div>
+                 <div class="calculator-button-container">
+                    <button class="calculator-button">Отправить запрос</button>
+                 </div>
+            </form>
+
+        </section>
 
 
+        
 
-    </section>
-    Привет! Я - Наталия Старостина
-    Я делаю сайты
+    </div>
+  
     
 </body>
 </html>
