@@ -1,6 +1,8 @@
 body {
     background-color: #F3F5F9;
     font-family: 'Montserrat', sans-serif;
+    margin-left: 110;
+    margin-right: 110;
 }
 
 p {
@@ -54,6 +56,7 @@ h2 {
     display: flex;
     flex-direction: row;
     padding: 80px;
+    justify-content: space-between;
 }
 
 /* Experience section */
@@ -62,7 +65,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 33%;
+    width: 268px;
 }
 
 .my-photo {
@@ -96,6 +99,7 @@ h2 {
 
 .My-info-section {
     margin-left: 72px;
+    margin-right: 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -124,7 +128,7 @@ h2 {
     box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.25);
     border-radius: 16px;
     margin-left: 36px;
-    width: 33%;
+    width: 368px;
     padding: 40px;
 }
 
